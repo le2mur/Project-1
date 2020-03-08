@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>Программа для расчета несущей способности</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+  <body>
+   <header>
+    <h3>Программа расчета остаточной несущей способности опор контактной сети</h3>
+   </header>  
+    <section>  
+     <p>Выберите тип опоры</p>
+      <select value="" id="select">
+       <option value="1">Опора с предварительным напряжением арматуры</option>
+       <option value="2">Опора без предварительного напряжения арматуры</option>
+      </select>
+     <p>Введите данные в соответсвующие поля.</p>    
+      <input type="text" placeholder="Введите П1" id="p1" value="">
+      <input type="text" placeholder="Введите П2" id="p2" value="">
+      <p><button id="button">Получить результаты</button></p>
+      <script src="main.js">
+      </script>
+    </section>
+   <footer>
+    <p><output id="result"></output></p>
+   </footer>
+  </body>
+</html>
